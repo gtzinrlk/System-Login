@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family==Space+Mono:ital@0;1&display=swap');
+@keyframes MovingButton {
+    from{background-color: rgb(3, 0, 184); color: whitesmoke}
+    to{ackground-color: rgb(22, 16, 58); color: white}
+}
+
+body, html{
+    width: 90%;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #201b2c;
+    background-color: rgb(235, 235, 231);
+}    
+
+label1{
+    position: absolute;
+    left: 400px;
+    top: 192px;
+    font-size: 80px;
+}
+
+.botao{
+    position: absolute;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(251, 255, 0);
+    box-shadow:rgb(255, 238, 0) 0px 2px 20px 1px;
+    top: 520px;
+    left: 430px;
+    width: 400px;
+    height: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: purple;
+}
+
+.botao:hover{
+    animation: 30s ;
+    animation-name: MovingButton;
+    animation-duration: 1s infinite;
+    color: black;
+    box-shadow:rgb(0, 4, 255) 0px 2px 20px 1px;
+}
+
+.botao1{
+    position: absolute;
+    border: 2px solid whitesmoke;
+    border-radius: 60px;
+    background-color: transparent;
+    top: 478px;
+    left: 658px;
+    width: 20px;
+    height: 20px;
+}
+
+.botao1:focus{
+    background-color: rgb(0, 255, 0);
+    animation-name: VerifyF;
+    animation-duration: 1s;
+}
+
+.botao2{
+    position: absolute;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: transparent;
+    top: 478px;
+    left: 777px;
+    width: 20px;
+    height: 20px;
+    
+}
+.botao2:focus{
+    background-color: rgb(0, 255, 0);
+    animation-name: VerifyF;
+    animation-duration: 1s;
+}
+
+.caixa{
+    position: absolute;
+    background-color: rgb(23, 25, 34);;
+    left: 300px;
+    top: 140px;
+    border-radius: 20px;
+    border: 3px solid rgb(105, 104, 104);;
+    width: 650px;
+    height: 600px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 70px 1px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+
+}
+.barName{
+    position: relative;
+    background-color: white;
+    width: 481px;
+    height: 1px;
+    border-radius: 10px;
+    top: 223px;
+    left: 392px;
+}
+
+.barNamea{
+    position: relative;
+    background-color: white;
+    width: 481px;
+    height: 1px;
+    border-radius: 10px;
+    top: 306px;
+    left: 392px;
+}
+
+.barNameb{
+    position: relative;
+    background-color: white;
+    width: 481px;
+    height: 1px;
+    border-radius: 10px;
+    top: 388px;
+    left: 392px;
+}
+
+.registre{
+    position: absolute;
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    width: 200px;
+    left: 485px;
+    top: 612px;
+    outline: none;
+    font-size: 14.3px;
+    font-weight: 500;
+    letter-spacing: 0.10;
+}
+
+
+.img-right{
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+    border: none;
+}
+
+.img-login{
+    position: relative;
+    left: 830px;
+    top: 140px;
+}
+.img-email{
+    position: absolute;
+    left: 838px;
+    top: 430px;
+}
+.img-senha{
+    position: absolute;
+    left: 838px;
+    top: 330px;
+}
+.img-verify{
+    position: absolute;
+    left: 655px;
+    top: 480px;
+    border: none;
+    outline: none;
+}
+
+
+.link{
+    position: absolute;
+    left: 680px;
+    top: 611.9px;
+    color: white;
+    text-decoration:none;
+    font-size: 14.3px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.loginarea{
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    left: 400px;
+    top: 220px;
+    background-color: rgba(36, 40, 53, 0);
+    width: 29%;
+    height: 5%;
+    font-size: 16px;
+    color: whitesmoke;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.senhaarea{
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    position: absolute;
+    left: 400px;
+    top: 320px;
+    background-color: rgba(36, 40, 53, 0);
+    width: 29%;
+    height: 5%;
+    outline: none;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.emailarea{
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 400px;
+    top: 420px;
+    background-color: rgba(36, 40, 53, 0);
+    width: 29%;
+    height: 5%;
+    outline: none;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.remenberpassword{
+    position: relative;
+    left: 500px;
+    top: 710px;
+}
+.remenberpassword1{
+    position: absolute;
+    left: 530px;
+    top: 710px;
+    font-size: 13px;
+    color: white;
+}
+
+.Sexo1{
+    position: absolute;
+    color: rgb(235, 235, 231);
+    left: 805px;
+    top: 474px;
+    font-size: 14.3px;
+    font-weight: 650;
+    letter-spacing: 0.90;
+}
+.Sexo2{
+    position: absolute;
+    color: rgb(230, 230, 230);
+    font-size: 14.3px;
+    font-weight: 650;
+    letter-spacing: 0.90;
+    left: 686px;
+    top: 474px;
+}
+
+
